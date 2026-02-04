@@ -1,0 +1,83 @@
+[Adblock Plus 2.0]
+! Checksum: 
+! Version: 2025
+! Title: Foej Block List
+! Last modified: 15 Feb 2025 12:31 UTC
+! Expires: infinite (update frequency)
+! Homepage:   https://github.com/foejahmed
+
+! https://www.youtube.com/feed/subscriptions
+!! pre roll adblock
+##.pre-roll-ad
+! speed boost
+||pagead2.googlesyndication.com^
+||googleads.g.doubleclick.net^
+||tpc.googlesyndication.com^
+||doubleclick.net^
+||googleadservices.com^
+||amazon-adsystem.com^
+||criteo.com^$script
+||criteo.net^$script
+||adnxs.com^$script
+||adserver.adtechus.com^
+||advertising.com^
+||contextweb.com^
+||rubiconproject.com^$script
+||lijit.com^
+||outbrain.com^$script
+/ads.js
+/ads.js?
+/ads.js|
+/ad.js?
+/adserver.js
+/adv.js
+
+!! Hide recommend
+!youtube.com###related
+
+!! fb popup notification; fb stories section; friend request
+www.facebook.com##.xi55695.x6prxxf.xdt5ytf.x78zum5.x9f619.xh5kl08.x15x8krk.xde0f50.x5a5i1n.x1obq294
+www.facebook.com##.x1ceravr.xgmub6v.x193iq5w
+www.facebook.com##.x1y1aw1k > div > .xyen2ro.x1uc6qws.x1n2onr6 > .x1y1aw1k.xwib8y2
+
+! Google Sign-in with Google popups / login dialogs
+||accounts.google.com/gsi/*$xhr,script,3p
+||accounts.google.com/gsi/*$xmlhttprequest,script,third-party
+
+! google tools
+www.google.com##.maia-header
+www.google.com###maia-nav-x
+www.google.com###maia-main > .maia-cols
+!instagram.com##+js(aeld, dblclick)
+www.instagram.com##.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1n2onr6.xsgj6o6.x12nagc.xo71vjh.x5pf9jr.x13lgxp2.x168nmei.x78zum5.xjbqb8w.x9f619
+! gemini photo create
+gemini.google.com##.ng-star-inserted.side-nav-entry-container
+
+!! 4 line
+ragalahari.com###st-el-1
+ragalahari.com###raga-header
+www.ragalahari.com##.st-animated.st-inline-share-buttons.st-has-labels.st-center.sharethis-inline-share-buttons
+www.ragalahari.com##.btm-latestnews.column.medium-3.small-11
+www.ragalahari.com###div-ub-ragalahari\.com_1699273808724
+! remove right column; social media icon
+socialnews.xyz###mh-wrapper > div.mh-section.mh-group:last-child > aside.mh-sidebar:last-child
+socialnews.xyz##div.a2a_kit.a2a_kit_size_32.a2a_floating_style.a2a_vertical_style:nth-child(5)
+! Pics www.tupaki.com; right side news
+www.tupaki.com##header
+www.tupaki.com###ad_after_header
+www.tupaki.com##.trending.entertainment-telugu
+www.tupaki.com##.live-tabs > .hide
+www.tupaki.com##.h-news-desc
+www.tupaki.com##.h-news-heading
+www.tupaki.com##.sub-flex.breadcrumbs
+www.tupaki.com##.share
+www.tupaki.com##section.py-sm-5.py-4.ads-slider:nth-of-type(1)
+www.tupaki.com###post-content-wrapper > span
+! skilluper chat btn
+skilluper.com##.wa__btn_popup
+weather.com##.DynamicMap--dynamicMapContainer--I7Fx1
+www.speedtest.com.sg##.content_wrapper > table
+www.speedtest.com.sg##h1
+dailymotion.com###root > div.Root__app___13Ed2.desktop > main.Root__main___1SCaI:nth-child(5) > div.NewWatchingDiscovery__watchingDiscovery___1_ZGK > div.NewWatchingDiscovery__watchingSection___3Bzey:first-child > div.WatchingSection__safeZoneAndQueue___1cgji > div.WatchingSection__discoveryQueueWrapper___Gy-gm:last-child > div.row.WatchingSection__discoveryQueue___1U48c > div.col > div.DiscoveryQueueDisplay__sectionContainer___T07n6.DiscoveryQueueDisplay__noPadding___1q0Mz > div.DiscoveryVideoSection__newDiscoveryVideoSection___1_6R3 > div.row
+www.bilibili.tv##.bstar-header
+xvideos.red
