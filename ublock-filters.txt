@@ -1,36 +1,12 @@
 [Adblock Plus 2.0]
 ! Checksum: 
-! Version: 2025
+! Version: 2026
 ! Title: Foej Block List
-! Last modified: 15 Feb 2025 12:31 UTC
+! Last modified: 22 Feb 2026 12:31 UTC
 ! Expires: infinite (update frequency)
 ! Homepage:   https://github.com/foejahmed
 
 ! https://www.youtube.com/feed/subscriptions
-!! pre roll adblock
-##.pre-roll-ad
-! speed boost
-||pagead2.googlesyndication.com^
-||googleads.g.doubleclick.net^
-||tpc.googlesyndication.com^
-||doubleclick.net^
-||googleadservices.com^
-||amazon-adsystem.com^
-||criteo.com^$script
-||criteo.net^$script
-||adnxs.com^$script
-||adserver.adtechus.com^
-||advertising.com^
-||contextweb.com^
-||rubiconproject.com^$script
-||lijit.com^
-||outbrain.com^$script
-/ads.js
-/ads.js?
-/ads.js|
-/ad.js?
-/adserver.js
-/adv.js
 
 !! Hide recommend
 !youtube.com###related
@@ -81,3 +57,7 @@ www.speedtest.com.sg##h1
 dailymotion.com###root > div.Root__app___13Ed2.desktop > main.Root__main___1SCaI:nth-child(5) > div.NewWatchingDiscovery__watchingDiscovery___1_ZGK > div.NewWatchingDiscovery__watchingSection___3Bzey:first-child > div.WatchingSection__safeZoneAndQueue___1cgji > div.WatchingSection__discoveryQueueWrapper___Gy-gm:last-child > div.row.WatchingSection__discoveryQueue___1U48c > div.col > div.DiscoveryQueueDisplay__sectionContainer___T07n6.DiscoveryQueueDisplay__noPadding___1q0Mz > div.DiscoveryVideoSection__newDiscoveryVideoSection___1_6R3 > div.row
 www.bilibili.tv##.bstar-header
 xvideos.red
+! like, ad bar
+www.xvideos.com###v-actions
+! Feb 14, 2026 https://gemini.google.com
+gemini.google.com##.ng-star-inserted.gems-list-container
